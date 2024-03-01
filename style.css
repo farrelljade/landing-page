@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerLogoLinks {
+  display: flex;
+  justify-content: space-between;
+  
+}
