@@ -56,22 +56,27 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.mainText {
+.content-left {
     display: flex;
+    width: 600px;
+    margin: 20px;
+}
+
+.mainText {
+    
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
 }
 
 .secText {
-    display: flex;
-    flex: 1;
+    display: flex;   
     font-size: 18px;
     color: #e5e7eb;
 }
